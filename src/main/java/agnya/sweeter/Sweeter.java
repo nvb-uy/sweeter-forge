@@ -1,7 +1,10 @@
 package agnya.sweeter;
 
 import com.mojang.logging.LogUtils;
+
+import agnya.sweeter.init.Registry;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -19,6 +22,8 @@ public class Sweeter
     private static final Logger LOGGER = LogUtils.getLogger();
     public static final String MOD_ID = "sweeter";
 
+    
+
     public Sweeter()
     {
         // Register the setup method for modloading
@@ -30,6 +35,9 @@ public class Sweeter
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        Registry.BLOCKS.register(bus);
     }
 
     private void setup(final FMLCommonSetupEvent event)
