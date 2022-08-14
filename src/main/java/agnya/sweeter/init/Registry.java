@@ -26,10 +26,17 @@ public class Registry {
 
     // ! ITEM REGISTRY
     // Ice Creams
-    // TODO: Currently they're items for test purposes
+    
     public static final RegistryObject<Item> VANILLA_ICE_CREAM = ITEMS.register("ice_cream", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab)));
-    public static final RegistryObject<Item> CHOCOLATE_ICE_CREAM = ITEMS.register("chocolate_ice_cream", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab)));
+    public static final RegistryObject<Item> VANILLA_ICE_CREAM_CHERRY = ITEMS.register("ice_cream_with_cherry", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab)));
+    public static final RegistryObject<Item> VANILLA_ICE_CREAM_SPRINKLES = ITEMS.register("ice_cream_with_sprinkles", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab)));
 
-    // TODO: Variations
-    // With Cherry & Sprinkles
+    public static final RegistryObject<Item> CHOCOLATE_ICE_CREAM = ITEMS.register("chocolate_ice_cream", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab)));
+    public static final RegistryObject<Item> CHOCOLATE_ICE_CREAM_WITH_CHERRY = ITEMS.register("chocolate_ice_cream_with_cherry", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab)));
+    public static final RegistryObject<Item> CHOCOLATE_ICE_CREAM_WITH_SPINKLES = ITEMS.register("chocolate_ice_cream_with_sprinkles", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab)));
+
+    public static final RegistryObject<Item> STRAWBERRY_ICE_CREAM = ITEMS.register("strawberry_ice_cream", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab)));
+    public static final RegistryObject<Item> STRAWBERRY_ICE_CREAM_WITH_CHERRY = ITEMS.register("strawberry_ice_cream_with_cherry", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab)));
+    public static final RegistryObject<Item> STRAWBERRY_ICE_CREAM_WITH_SPINKLES = ITEMS.register("strawberry_ice_cream_with_sprinkles", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab)));
+
 }

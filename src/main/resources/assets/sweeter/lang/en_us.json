@@ -1,12 +1,19 @@
 {
     "itemGroup.sweeter_tab": "Sweeter",
+
     "item.sweeter.chocolate_cake": "Chocolate Cake",
+
     "item.sweeter.ice_cream": "Vanilla Ice Cream",
     "item.sweeter.ice_cream_with_chocolate_flakes": "Ice Cream with Chocolate Flakes",
     "item.sweeter.ice_cream_with_sprinkles": "Ice Cream with Sprinkles",
     "item.sweeter.ice_cream_with_cherry": "Ice Cream with Cherry",
+
     "item.sweeter.chocolate_ice_cream": "Chocolate Ice Cream",
     "item.sweeter.chocolate_ice_cream_with_sprinkles": "Chocolate Ice Cream with Sprinkles",
     "item.sweeter.chocolate_ice_cream_with_cherry": "Chocolate Ice Cream with Cherry",
-    "item.sweeter.chocolate_ice_cream_with_sprinkles_and_chocolate_fondant": "Chocolate Ice Cream with Sprinkles and Chocolate Fondant"
+    "item.sweeter.chocolate_ice_cream_with_sprinkles_and_chocolate_fondant": "Chocolate Ice Cream with Sprinkles and Chocolate Fondant",
+
+    "item.sweeter.strawberry_ice_cream": "Strawberry Ice Cream",
+    "item.sweeter.strawberry_ice_cream_with_sprinkles": "Strawberry Ice Cream with Sprinkles",
+    "item.sweeter.strawberry_ice_cream_with_cherry": "Strawberry Ice Cream with Cherry"
 }
