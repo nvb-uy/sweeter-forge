@@ -17,7 +17,6 @@ public class Registry {
 
     // ! BLOCK REGISTRY
 
-	// TODO: Make and put cake in new sweeter tab
     public static final RegistryObject<Block> CHOCOLATE_CAKE = BLOCKS.register("chocolate_cake", () -> new CakeBlock(BlockBehaviour.Properties.of(Material.CAKE)));	
 
     // BlockItem Registry
