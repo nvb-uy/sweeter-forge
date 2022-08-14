@@ -1,6 +1,8 @@
 package agnya.sweeter.init;
 
 import agnya.sweeter.Sweeter;
+import agnya.sweeter.items.ice_cream.Vanilla;
+
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -26,9 +28,9 @@ public class Registry {
     // ! ITEM REGISTRY
     // Ice Creams
     
-    public static final RegistryObject<Item> VANILLA_ICE_CREAM = ITEMS.register("ice_cream", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab).food(FoodRegistry.ICE_CREAM)));
-    public static final RegistryObject<Item> VANILLA_ICE_CREAM_CHERRY = ITEMS.register("ice_cream_with_cherry", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab).food(FoodRegistry.ICE_CREAM_WITH_CHERRY)));
-    public static final RegistryObject<Item> VANILLA_ICE_CREAM_SPRINKLES = ITEMS.register("ice_cream_with_sprinkles", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab).food(FoodRegistry.ICE_CREAM_WITH_SPRINKLES)));
+    public static final RegistryObject<Item> VANILLA_ICE_CREAM = ITEMS.register("ice_cream", () -> new Vanilla(new Item.Properties().tab(SweeterTab.SweeterTab).food(FoodRegistry.ICE_CREAM)));
+    public static final RegistryObject<Item> VANILLA_ICE_CREAM_CHERRY = ITEMS.register("ice_cream_with_cherry", () -> new Vanilla(new Item.Properties().tab(SweeterTab.SweeterTab).food(FoodRegistry.ICE_CREAM_WITH_CHERRY)));
+    public static final RegistryObject<Item> VANILLA_ICE_CREAM_SPRINKLES = ITEMS.register("ice_cream_with_sprinkles", () -> new Vanilla(new Item.Properties().tab(SweeterTab.SweeterTab).food(FoodRegistry.ICE_CREAM_WITH_SPRINKLES)));
 
     public static final RegistryObject<Item> CHOCOLATE_ICE_CREAM = ITEMS.register("chocolate_ice_cream", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab).food(FoodRegistry.CHOCOLATE_ICE_CREAM)));
     public static final RegistryObject<Item> CHOCOLATE_ICE_CREAM_WITH_CHERRY = ITEMS.register("chocolate_ice_cream_with_cherry", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab).food(FoodRegistry.CHOCOLATE_ICE_CREAM_WITH_CHERRY)));
