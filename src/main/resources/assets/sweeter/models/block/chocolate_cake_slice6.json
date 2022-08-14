@@ -4,7 +4,7 @@
         "bottom": "sweeter:block/chocolate_cake_bottom",
         "top": "sweeter:block/chocolate_cake_top",
         "side": "sweeter:block/chocolate_cake_side",
-        "inside": "block/cake_inner"
+        "inside": "sweeter:block/chocolate_cake_inside"
     },
     "elements": [
         {   "from": [ 13, 0, 1 ],
