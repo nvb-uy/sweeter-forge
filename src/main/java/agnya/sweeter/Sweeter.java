@@ -61,6 +61,7 @@ public class Sweeter
     public void onServerStarting(ServerStartingEvent event)
     {
         // Server starting event
+        LOGGER.info("Sweeter started serverside!");
     }
 
     // You can use EventBusSubscriber to automatically subscribe events on the contained class (this is subscribing to the MOD
