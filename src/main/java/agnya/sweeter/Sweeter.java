@@ -38,6 +38,7 @@ public class Sweeter
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
         Registry.BLOCKS.register(bus);
+        Registry.ITEMS.register(bus);
     }
 
     private void setup(final FMLCommonSetupEvent event)
