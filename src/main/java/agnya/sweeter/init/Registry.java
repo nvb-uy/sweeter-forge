@@ -2,7 +2,6 @@ package agnya.sweeter.init;
 
 import agnya.sweeter.Sweeter;
 import agnya.sweeter.items.ice_cream.Vanilla;
-
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -39,5 +38,5 @@ public class Registry {
     public static final RegistryObject<Item> STRAWBERRY_ICE_CREAM = ITEMS.register("strawberry_ice_cream", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab).food(FoodRegistry.STRAWBERRY_ICE_CREAM)));
     public static final RegistryObject<Item> STRAWBERRY_ICE_CREAM_WITH_CHERRY = ITEMS.register("strawberry_ice_cream_with_cherry", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab).food(FoodRegistry.STRAWBERRY_ICE_CREAM_WITH_CHERRY)));
     public static final RegistryObject<Item> STRAWBERRY_ICE_CREAM_WITH_SPINKLES = ITEMS.register("strawberry_ice_cream_with_sprinkles", () -> new Item(new Item.Properties().tab(SweeterTab.SweeterTab).food(FoodRegistry.STRAWBERRY_ICE_CREAM_WITH_SPRINKLES)));
-
+            
 }

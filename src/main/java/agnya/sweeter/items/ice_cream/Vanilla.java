@@ -9,11 +9,9 @@ import net.minecraft.network.chat.Component;
 import java.util.List;
 
 public class Vanilla extends Item {
-	public Vanilla() {
-		super(new Item.Properties()
-		.stacksTo(1)
-		);
-    }
+	public Vanilla(Item.Properties properties) {
+		super(properties);
+	}
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
